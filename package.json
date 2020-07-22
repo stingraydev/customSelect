@@ -1,0 +1,25 @@
+{
+  "name": "customselect",
+  "version": "1.0.0",
+  "description": "customSelect",
+  "main": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OWIII/customSelect.git"
+  },
+  "keywords": [
+    "OWIII"
+  ],
+  "author": "OWIII",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OWIII/customSelect/issues"
+  },
+  "homepage": "https://github.com/OWIII/customSelect#readme",
+  "devDependencies": {
+    "sass": "^1.26.10"
+  }
+}
