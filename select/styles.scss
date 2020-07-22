@@ -20,6 +20,7 @@ body {
 .select {
   width: 100%;
   position: relative;
+  z-index: 100;
 
   &.open {
     .select__dropdown {
@@ -27,6 +28,10 @@ body {
     }
     .select__input {
       border-bottom: none;
+    }
+
+    .select__backdrop {
+      display: block;
     }
   }
 
@@ -68,5 +73,19 @@ body {
       cursor: pointer;
       transition: 0.15 background-color ease-in;
     }
+
+    &.selected {
+      background-color: bisque;
+    }
+  }
+
+  &__backdrop {
+    position: fixed;
+    display: none;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
   }
 }
